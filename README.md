@@ -1,19 +1,19 @@
-## Welcome ♥
+## Bienvenido ♥
 
-LÖVE Potion is a homebrew game framework for Nintendo 3DS and Nintendo Switch.
+LÖVE Potion es un framework para desarrollo de juegos homebrew para Nintendo 3DS y Nintendo Switch.
 
-If you are new and unfamiliar with LÖVE and/or Lua, I genuinely recommend clicking the "How to LÖVE" link on the sidebar first.
+Si eres nuevo y recién estás empezando con LÖVE y/o Lua, te recomiendo de corazón que, primero que nada, hagas click en el enlace "How to LÖVE" (contenido en inglés) en la barra lateral.
 
-Once you understand how LÖVE works, check out the [compatibility](compatibility) section to see what's different in LÖVE Potion. You may also view the current API reference on the sidebar.
+Una vez que entiendas cómo funciona LÖVE, échale un vistazo a la sección sobre [compatibilidad](es/compatibility) para ver las diferencias con LÖVE Potion. También puedes ver la referencia de la API actual en la barra lateral.
 
 ![](files/lovepotion.png)
 
-## Hello World
-This is the full source for 'hello world' in LÖVE Potion.
+## Hola mundo
+Este es el código fuente completo para un "Hola mundo" en LÖVE Potion.
 
 ```lua
 function love.draw()
-    love.graphics.print('Hello World!', 200, 120)
+    love.graphics.print('¡Hola mundo!', 200, 120)
 end
 
 -- we need to quit the app when a button is pressed
