@@ -16,7 +16,7 @@ function love.draw()
     love.graphics.print('¡Hola mundo!', 200, 120)
 end
 
--- we need to quit the app when a button is pressed
+-- Cerramos la app al presionar cualquier botón
 function love.gamepadpressed(joystick, button)
     love.event.quit()
 end
